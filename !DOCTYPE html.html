@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Caza - Complementos y Cámaras</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2d3e2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #445c44;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: #3a4e3a;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px;
+      width: 100%;
+      max-width: 320px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    footer {
+      background: #2d3e2f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      .product {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tienda de Caza</h1>
+    <p>Complementos para rifles y cámaras para naturaleza</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#nosotros">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="container" id="productos">
+    <h2>Productos destacados</h2>
+    <div class="products">
+      <div class="product">
+        <img src="mira-telescopica.png" alt="Mira telescópica">
+        <h3>Mira Telescópica Avanzada</h3>
+        <p>Alta precisión para distancias largas. Ideal para rifles de caza.</p>
+        <p><strong>Precio:</strong> 250 €</p>
+      </div>
+
+      <div class="product">
+        <img src="bipode-rifle.png" alt="Bípode para rifle">
+        <h3>Bípode Ajustable</h3>
+        <p>Soporte estable y ajustable para mejorar la puntería en terrenos difíciles.</p>
+        <p><strong>Precio:</strong> 60 €</p>
+      </div>
+
+      <div class="product">
+        <img src="botella-acero.png" alt="Botella de acero">
+        <h3>Botella de Acero Inoxidable</h3>
+        <p>Perfecta para largas jornadas al aire libre. Resistente y térmica.</p>
+        <p><strong>Precio:</strong> 25 €</p>
+      </div>
+
+      <div class="product">
+        <img src="mira-telescopica-2.png" alt="Mira telescópica modelo 2">
+        <h3>Mira Telescópica Premium</h3>
+        <p>Modelo premium con óptica de alto contraste y torretas de ajuste ultra precisas.</p>
+        <p><strong>Precio:</strong> 310 €</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos apasionados de la caza y la fotografía natural. Ofrecemos productos seleccionados para mejorar tu experiencia al aire libre, con énfasis en calidad y durabilidad.</p>
+  </div>
+
+  <div class="container" id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: contacto@tiendadecaza.com</p>
+    <p>Teléfono: +34 600 123 456</p>
+    <p><a href="https://wa.me/34600123456">Escríbenos por WhatsApp</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Tienda de Caza. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
